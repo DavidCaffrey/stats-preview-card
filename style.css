@@ -30,10 +30,14 @@ body {
     place-items: center;
 }
 
-
-.container {
+main{
     padding: 3rem 1rem;
 }
+
+
+/* .container {
+    padding: 3rem 1rem;
+} */
 
 .card {
     background-color: var(--card-bg-blue);
@@ -63,7 +67,7 @@ body {
 }
 
 .info {
-    padding: 1rem 2rem;
+    padding: 2rem 2rem 3rem 2rem;
     display: grid;
     gap: 2rem;
     place-items: center;
@@ -91,6 +95,7 @@ body {
     display: grid;
     width: 100%;
     justify-content: center;
+    gap: 0.5rem;
 }
 
 .numbers {
@@ -103,6 +108,8 @@ body {
     font-family: "Lexend Deca", sans-serif;
     font-size: .75rem;
     color: var(--trans-white-2);
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .attribution {
@@ -115,45 +122,4 @@ body {
     
 }
 
-/* @media(min-width:770px){
- 
-    .card{
-       display: flex;
-       flex-direction: row-reverse;
-       
-    }
-
-    .img-overlay-container{
-       max-width: 100%;
-    }
-
-    .info{
-       display: grid;
-       grid-template-columns: 1fr 1fr 1fr;
-       grid-template-rows: 1fr 1fr 1fr;
-    }
-
-    .heading{
-        grid-column: 1/4;
-    }
-
-    .main-text{
-        grid-column: 1/4;
-    }
-} */
-
-@media(min-width:770px){
-  
-    .card{
-        display: flex;
-        flex-direction: row-reverse;
-        max-width: 80rem;
-     }
-
-     .main-img {
-        width: 80%;
-        height: 100%;
-        border-radius: 5px 5px 0 0;
-    }
-}
 
