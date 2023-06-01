@@ -19,33 +19,35 @@
     <main>
       <div class="card">
         <section class="card-img-container">
-          <div class="card-img-overlay"></div>
-          <img
-            src="images/image-header-mobile.jpg"
-            alt="three women working at thier desks"
-            srcset=""
-            class="image"
-          />
+          <picture>
+            <source
+              media="(min-width:800px)"
+              srcset="images/image-header-desktop.jpg"
+            />
+            <img src="images/image-header-mobile.jpg" alt="" class="main-img" />
+          </picture>
         </section>
-        <h1 class="card-heading">
-          Get <span class="highlight">insights</span> that help your business
-          grow.
-        </h1>
-        <p class="card-info-text">
-          Discover the benefits of data analytics and make better decisions
-          regarding revenue, customer experience, and overall efficiency.
-        </p>
-        <section class="stats">
-          <p class="numbers">10k+</p>
-          <p class="type">companies</p>
-        </section>
-        <section class="stats">
-          <p class="numbers">314</p>
-          <p class="type">templates</p>
-        </section>
-        <section class="stats">
-          <p class="numbers">12M+</p>
-          <p class="type">queries</p>
+        <section class="card-info-container">
+          <h1 class="card-heading">
+            Get <span class="highlight">insights</span> that help your business
+            grow.
+          </h1>
+          <p class="card-info-text">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+          <section class="stats">
+            <p class="numbers">10k+</p>
+            <p class="type">companies</p>
+          </section>
+          <section class="stats">
+            <p class="numbers">314</p>
+            <p class="type">templates</p>
+          </section>
+          <section class="stats">
+            <p class="numbers">12M+</p>
+            <p class="type">queries</p>
+          </section>
         </section>
       </div>
     </main>
